@@ -1,17 +1,19 @@
 
 import * as React from "react"
-import Head from '../components/head';
+import Layout from '../components/layout';
 
 // styles
 
 // markup
 const TestSpacePage= () => {
   return (
-    <main>
-      <title>테스트스페이스</title>
-      <Head />
-      <h1>테스트 스페이스</h1>
-    </main>
+
+       <Layout>
+          <title>테스트스페이스</title>
+          
+          <h1>테스트 스페이스</h1>
+      </Layout>
+   
   )
 }
 

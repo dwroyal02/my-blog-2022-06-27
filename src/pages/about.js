@@ -1,17 +1,18 @@
 
 import * as React from "react"
-import Head from '../components/head';
-
+import Layout from '../components/layout';
 // styles
 
 // markup
 const about= () => {
   return (
-    <main>
-      <title>어바웃</title> 
-      <Head />
-      <h1>어바웃</h1>
-    </main>
+    
+    <Layout>
+        <title>어바웃</title> 
+            
+        <h1>어바웃</h1>
+    </Layout>
+   
   )
 }
 
