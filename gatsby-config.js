@@ -3,5 +3,6 @@ module.exports = {
     title: `My blog 2022 6 27`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [ "gatsby-plugin-image",
+  "gatsby-plugin-sharp",],
 }

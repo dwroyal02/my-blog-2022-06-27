@@ -7,10 +7,10 @@ import Layout from '../components/layout';
 const about= () => {
   return (
     
-    <Layout>
-        <title>어바웃</title> 
-            
-        <h1>어바웃</h1>
+    <Layout pageTitle="About me">
+        <p>
+          Hello there! i'm trying to work on it.
+        </p>
     </Layout>
    
   )
